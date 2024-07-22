@@ -155,7 +155,6 @@ const LandingPage = () => {
             <FaCode size={30} />
             <h1 className="font-bold mt-4">Development</h1>
             <p className="w-[200px] mt-4">
-              {" "}
               Bringing your vision to life with the latest technology and design
               trends.
             </p>
