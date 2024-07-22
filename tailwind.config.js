@@ -4,7 +4,19 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '12': '12deg',
+      },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Monserrat", "sans-serif"],
+        sans:[ "Montserrat Alternates", "sans-serif"],
+        inter: [ "Inter", "sans-serif"]
+        
+      },
+      
+    },
   },
   plugins: [],
 }

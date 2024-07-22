@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-<div className=" h-screen bg-[#C7C6C1] ">
+<div className="bg-[#F0EEE4] ">
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<LandingPage/>}></Route>
